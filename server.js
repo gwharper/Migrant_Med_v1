@@ -25,7 +25,7 @@ mongoose.connection.on('error', (err) => {
 // Set app variable for express()
 const app = express();
 
-const users = require('./routes/users')
+const users = require('./routes/users');
 
 // CORS Middleware
 app.use(cors());

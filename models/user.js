@@ -17,35 +17,6 @@ const UserSchema = mongoose.Schema({
         type:     String,
         required: true
      }
-    // email: {
-    //     type:     String,
-    //     required: true
-    // },
-    // phone: {
-    //     type:     Number,
-    //     required: true
-    // },
-    // city: {
-    //     type:     String,
-    //     required: false
-    // },
-    // state: {
-    //     type:     String,
-    //     required: true,
-    //     maxlength: 2
-    // },
-    // zip: {
-    //     type:     Number,
-    //     required: true
-    // },
-    // specialty: {
-    //     type:     String,
-    //     required: true
-    // },
-    // experience: {
-    //     type:     String,
-    //     required: true
-    // }
 });
 
 const User = module.exports = mongoose.model('User', UserSchema);
@@ -61,9 +32,12 @@ module.exports.getUserUserName = function (username, callback) {
 module.exports.addUser = function (newUser, callback) {
     bcrypt.genSalt(10, (err, salt) => {
         bcrypt.hash(newUser.password, salt, (err, hash) => {
-            if (err) console.log(err);
-            newUser.password = hash;
-            newUser.save(callback);
+            if (err) {
+                throw err
+            } else {
+                newUser.password = hash;
+                newUser.save(callback);
+            }
         });
     });
 };
