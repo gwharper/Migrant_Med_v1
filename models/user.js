@@ -13,10 +13,30 @@ const UserSchema = mongoose.Schema({
         type:     String,
         required: true
     },
-        username: {
+    username: {
         type:     String,
         required: true
-     }
+     },
+    phone: {
+        type:     String,
+        required: true
+    },
+    state: {
+        type:     String,
+        required: true
+    },
+    city: {
+        type:     String,
+        required: false
+    },
+    experience: {
+        type:     String,
+        required: true
+    },
+    specialty: {
+        type: String,
+        required: true
+    }
 });
 
 const User = module.exports = mongoose.model('User', UserSchema);
@@ -31,13 +51,10 @@ module.exports.getUserUserName = function (username, callback) {
 
 module.exports.addUser = function (newUser, callback) {
     bcrypt.genSalt(10, (err, salt) => {
+        if(err) throw err;
         bcrypt.hash(newUser.password, salt, (err, hash) => {
-            if (err) {
-                throw err
-            } else {
-                newUser.password = hash;
-                newUser.save(callback);
-            }
+           newUser.password = hash;
+           newUser.save(callback);
         });
     });
 };
