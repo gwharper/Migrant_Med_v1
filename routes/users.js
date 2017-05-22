@@ -1,8 +1,8 @@
-const express = require('express');
-const router  = express.Router();
-const User    = require('../models/user');
+const express  = require('express');
+const router   = express.Router();
+const User     = require('../models/user');
 const passport = require('passport');
-const jwt     = require('jsonwebtoken');
+const jwt      = require('jsonwebtoken');
 
 // Register
 router.post('/register', (req, res, next) => {
@@ -14,7 +14,7 @@ router.post('/register', (req, res, next) => {
 
     User.addUser(newUser, (err, user) => {
       if(err) {
-          res.json({success: false, message: 'User could not be created'});
+          res.json({success: false, message: 'User could not be created' + err});
       } else {
           res.json({success: true, message: 'User created successfully!'});
       }
