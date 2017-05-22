@@ -30,23 +30,19 @@ body {
   position: relative;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
+#signup input,
+#signup button[type="submit"] {
 font-family: 'Fira Sans', sans-serif;
 }
 
-#contact {
+#signup {
   background: #FFFFFF;
   padding: 25px;
   margin: 150px 0;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-#contact h3 {
+#signup h3 {
   display: block;
   font-size: 25px;
   font-weight: 300;
@@ -64,11 +60,7 @@ fieldset {
   width: 100%;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
+.contact input {
   width: 100%;
   border: 1px solid #ccc;
   background: #FFF;
@@ -76,18 +68,15 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
+.contact input :hover,
+.contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
   border: 1px solid #aaa;
 }
 
-#contact button[type="submit"] {
+#signup button[type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -98,14 +87,14 @@ fieldset {
   font-size: 15px;
 }
 
-#contact button[type="submit"]:hover {
+#signup button[type="submit"]:hover {
   background: #FFFFFF;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active {
+#signup button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
@@ -113,8 +102,8 @@ fieldset {
   text-align: center;
 }
 
-#contact input:focus,
-#contact textarea:focus {
+#signup input:focus,
+#signup textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
 }
@@ -135,13 +124,23 @@ fieldset {
   color: #888;
 }
 
-#terms p {
-	color: #000000;
-	font-size: 9px;
-	text-align: center;
-	font-family: 'Fira Sans', sans-serif;
+/*#terms p {*/
+	/*color: #000000;*/
+	/*font-size: 9px;*/
+	/*text-align: center;*/
+	/*font-family: 'Fira Sans', sans-serif;*/
 
+/*}*/
+
+.footer{
+  font-size:11px;
+  text-align-last: center;
 }
+
+span{
+  color: #00DBC2;
+}
+
 
 
 
