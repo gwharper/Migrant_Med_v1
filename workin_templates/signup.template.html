@@ -9,16 +9,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
         integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+  <!-- Custom stylesheets -->
+  <link rel="stylesheet" href="style.css">
 
   <title>Migrant Med Sign Up</title>
 
 </head>
 
 <body>
+    <div class="container">
 
-<div class="container">
-
-  <form id="signup">
+    <form id="signup" class="square">
     <img src="images/mmlogo black.png" class="img-responsive" alt="Responsive image">
 
     <div class="page-header">
@@ -27,36 +28,35 @@
 
     </br>
 
-    <div class="form-group">
-      <input class="form-control" placeholder="First name" type="text" required autofocus>
-    </div>
+        <div class="form-group fieldset contact">
+          <input class="form-control" placeholder="First name" type="text" required autofocus>
+        </div>
 
-    <div class="form-group">
-      <input class="form-control" placeholder="Last name" type="text">
-    </div>
+        <div class="form-group fieldset contact">
+          <input class="form-control" placeholder="Last name" type="text">
+        </div>
 
-    <div class="form-group">
-      <input class="form-control" placeholder="Email" type="email">
-    </div>
+        <div class="form-group fieldset contact">
+          <input class="form-control" placeholder="Email" type="email">
+        </div>
 
-    <div class="form-group">
-      <input class="form-control" placeholder="Please enter a password" type="password">
-    </div>
+        <div class="form-group fieldset contact">
+          <input class="form-control" placeholder="Please enter a password" type="password">
+        </div>
 
-    <div class="form-group">
-      <input class="form-control" placeholder="(555) 555-5555" type="number" required>
-    </div>
+        <div class="form-group fieldset contact">
+          <input class="form-control" placeholder="(555) 555-5555" type="number" required>
+        </div>
 
     </br>
 
-    <div class="form-group">
+    <div class="form-group fieldset">
       <button class="btn btn-primary" type="submit">Next</button>
     </div>
 
     </br>
 
-    <p class="footer" style="font-size:11px; text-align-last: center;" id="terms"> By registering you agree to the
-      Migrant Med Terms of Service</p>
+        <p class="footer"> By registering you agree to the <span><a href="">Migrant Med Terms of Service</a></span></p>
 
   </form>
 </div>
