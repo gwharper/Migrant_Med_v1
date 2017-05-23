@@ -9,17 +9,17 @@ const UserSchema = mongoose.Schema({
         type:     String,
         required: true
     },
-    password: {
-        type:     String,
-        required: true
-    },
     username: {
         type:     String,
         required: true
      },
+    password: {
+        type:     String,
+        required: true
+    },
     email: {
         type:     String,
-        required: false
+        required: true
     },
     phone: {
         type:     String,
@@ -31,15 +31,19 @@ const UserSchema = mongoose.Schema({
     },
     city: {
         type:     String,
-        required: false
+        required: true
     },
     experience: {
         type:     String,
         required: true
     },
     specialty: {
-        type: String,
+        type:     String,
         required: true
+    },
+    wages: {
+        type:     String,
+        required:  true
     }
 });
 

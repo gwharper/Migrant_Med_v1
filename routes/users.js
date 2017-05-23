@@ -15,7 +15,8 @@ router.post('/register', (req, res, next) => {
         state:      req.body.state,
         city:       req.body.city,
         experience: req.body.experience,
-        specialty:  req.body.specialty
+        specialty:  req.body.specialty,
+        wages:      req.body.wages
     });
 
     User.addUser(newUser, (err, user) => {
@@ -56,7 +57,8 @@ router.post('/auth', (req, res, next) => {
                         state: user.state,
                         city: user.city,
                         experience: user.experience,
-                        specialty: user.specialty
+                        specialty: user.specialty,
+                        wages:     user.wages
                     }
                 })
             } else {
