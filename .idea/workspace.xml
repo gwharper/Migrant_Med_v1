@@ -1,7 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="858ebf3d-0529-469b-a5bc-46eaf253cd1c" name="Default" comment="kjkjkljlkjkljlkjlk" />
+    <list default="true" id="858ebf3d-0529-469b-a5bc-46eaf253cd1c" name="Default" comment="kjkjkljlkjkljlkjlk">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/.angular-cli.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/e2e/app.e2e-spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/e2e/app.po.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/e2e/tsconfig.e2e.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/karma.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/protractor.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/app.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/app.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/app.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/app.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/app.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/contact/contact.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/contact/contact.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/contact/contact.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/contact/contact.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/dashboard/dashboard.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/home/home.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/login/login.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/navbar/navbar.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/profile/profile.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/components/register/register.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/services/validate.service.spec.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/app/services/validate.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/assets/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/environments/environment.prod.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/environments/environment.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/polyfills.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/test.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/tsconfig.app.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/tsconfig.spec.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/src/typings.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-src/tslint.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/database.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jacksonville_nursing/jacksonville_nursing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jacksonville_nursing/jacksonville_nursing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_home_page/agency.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_home_page/agency.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_home_page/migrant_med_landing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_home_page/mm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_home_page/old-index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/users.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/workin_templates/signup.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/workin_templates/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -176,7 +253,7 @@
       <workItem from="1495581275390" duration="1721000" />
       <workItem from="1495584458790" duration="9000" />
       <workItem from="1495584497629" duration="1331000" />
-      <workItem from="1495586095931" duration="1538000" />
+      <workItem from="1495586095931" duration="2038000" />
     </task>
     <task id="LOCAL-00001" summary="kjkjkljlkjkljlkjlk">
       <created>1495587431620</created>
@@ -189,18 +266,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4599000" />
+    <option name="totallyTimeSpent" value="5099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="51" width="1260" height="730" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2542373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2542373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -211,6 +288,24 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2542373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
